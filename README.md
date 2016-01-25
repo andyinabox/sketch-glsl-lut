@@ -5,7 +5,7 @@ Playing around with texture-based color lookup tables using [glsl-lut](https://g
 
 [![Screenshot](https://c2.staticflickr.com/2/1707/24514312761_5824e1d1a1_o.png)](https://andyinabox.github.io/sketch-glsl-lut/)
 
-[View here](https://andyinabox.github.io/sketch-glsl-lut/)
+[**Play with it here**](https://andyinabox.github.io/sketch-glsl-lut/)
 
 Mainly I'm experimenting with running the base lookup table through various Photoshop filters and seeing what happens. So for the above image, I started with this default image:
 
