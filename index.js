@@ -15,7 +15,7 @@ var video = webcamGrabber(600,400);
 var texture, lookup;
 
 var params = {
-	lut: "lookup.png"
+	lut: "luts/lookup.png"
 	, mix: 1.0
 }
 
@@ -35,7 +35,7 @@ function getTex2d(gl, path) {
 }
 
 function onLutChange(path) {
-	lookup = getTex2d(shell.gl, path);
+	lookup = getTex2d(shell.gl, "luts/"+path);
 	guiImg.src = lookup.image.src;
 }
 
