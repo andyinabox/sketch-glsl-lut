@@ -36,9 +36,6 @@
     "type": "git",
     "url": "git://github.com/andyinabox/sketch-glsl-lut.git"
   },
-  "keywords": [
-    "ecosystem:stackgl"
-  ],
   "homepage": "https://github.com/andyinabox/sketch-glsl-lut",
   "bugs": {
     "url": "https://github.com/andyinabox/sketch-glsl-lut/issues"

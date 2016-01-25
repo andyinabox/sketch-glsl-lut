@@ -1,17 +1,27 @@
-# example-lut
+GLSL LUT Sketch
+===============
 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+Playing around with texture-based color lookup tables using [glsl-lut](https://github.com/mattdesl/glsl-lut):
 
+[![Screenshot](https://c2.staticflickr.com/2/1707/24514312761_5824e1d1a1_o.png)](https://andyinabox.github.io/sketch-glsl-lut/)
 
+[View here](https://andyinabox.github.io/sketch-glsl-lut/)
 
-## Usage
+Mainly I'm experimenting with running the base lookup table through various Photoshop filters and seeing what happens. So for the above image, I started with this default image:
 
-[![NPM](https://nodei.co/npm/example-lut.png)](https://www.npmjs.com/package/example-lut)
+![Default lookup](https://raw.githubusercontent.com/andyinabox/sketch-glsl-lut/master/luts/lookup.png)
 
-## Contributing
+And ran it through the Photoshop "pointellize" filter to get this:
 
-See [stackgl/contributing](https://github.com/stackgl/contributing) for details.
+![Pointellize lookup](https://raw.githubusercontent.com/andyinabox/sketch-glsl-lut/master/luts/lookup-pointellize.png)
 
-## License
+Now when I run this through [glsl-lut](https://github.com/mattdesl/glsl-lut) I get some interesting effects.
 
-MIT. See [LICENSE.md](http://github.com/andyinabox/example-lut/blob/master/LICENSE.md) for details.
+## Running locally
+
+```bash
+git clone https://github.com/andyinabox/sketch-glsl-lut.git
+cd sketch-glsl-lut
+npm install
+npm start
+```
